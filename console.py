@@ -4,6 +4,8 @@ import json
 from datetime import datetime
 import sys
 """ Class Definition class HBNBCommand(cmd.Cmd):"""
+
+
 class HBNBCommand(cmd.Cmd):
     prompt = "(hbnb) "
 
@@ -15,10 +17,11 @@ class HBNBCommand(cmd.Cmd):
         """ EXit on EOF"""
         print("")
         return True
+
     def emptyline(self):
         """an empty line + ENTER shouldn’t execute anything"""
         pass
- 
+
+
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
-
