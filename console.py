@@ -1,12 +1,13 @@
 #!/usr/bin/python3
+"""console module"""
 import cmd
 import json
 from datetime import datetime
 import sys
-""" Class Definition class HBNBCommand(cmd.Cmd):"""
 
 
 class HBNBCommand(cmd.Cmd):
+    """ Class Definition class HBNBCommand(cmd.Cmd):"""
     prompt = "(hbnb) "
 
     def do_quit(self, arg):
