@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-body{
-	margin: 0;
-	padding: 0;
-	color: #484848;
-	font-size: 14px;
-	font-family: circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-=======
-html, body {
-    height: 100%;
-}
 body {
     margin: 0px;
     padding: 0px; 
@@ -21,6 +10,5 @@ body {
 .container {
     width: 100%;
     max-width: 1000px;
-    flex: 1 0 auto;
->>>>>>> 86ec1bbcd075e7601cd007f594a0697389bc1964
+    flex: 1  auto;
 }
